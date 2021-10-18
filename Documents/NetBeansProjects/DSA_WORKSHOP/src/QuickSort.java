@@ -34,7 +34,7 @@ public class QuickSort {
     }
     public void quickSorting(int arr[],int low,int high){
         int pi = partition(arr,low,high);
-        if(low < pi-1){
+        if(low < pi-1){     /// 1 ,5,4, 7   8   12,13,44,66
             quickSorting(arr,low,pi-1);
         }
         if(pi < high){
